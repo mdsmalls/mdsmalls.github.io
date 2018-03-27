@@ -1,0 +1,72 @@
+* {padding: 0; margin: 0;}
+
+#media, #contact {
+  background-color: lightgray;
+}
+
+.test {
+  border: solid black 1px;
+}
+header.banner {
+  text-align: center;
+  color: white;
+  background-image: url("../images/gros_morne.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header.banner .intro {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  header.banner .intro .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  header.banner .intro .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  header img.logo {
+      width: 35%;
+      }
+img.tile {
+  width: 200px;
+}
+
+img.icon {
+  width: 80px;
+  margin-top: -10px;
+}
+@media (min-width: 768px) {
+  header.banner .intro {
+    padding-top: 200px;
+    padding-bottom: 300px; }
+    header.banner .intro .intro-lead-in {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header.banner h1 .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header img.logo {
+      width: 25%;
+      }
+
+    img.tile {
+      width: 400px;
+    }
+
+  }
