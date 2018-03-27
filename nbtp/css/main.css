@@ -45,6 +45,10 @@ img.icon {
   width: 80px;
   margin-top: -10px;
 }
+
+.container {
+  padding: 35px;
+}
 @media (min-width: 768px) {
   header.banner .intro {
     padding-top: 200px;
