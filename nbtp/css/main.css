@@ -46,9 +46,24 @@ img.icon {
   margin-top: -10px;
 }
 
+.img-responsive {
+    margin: 0 auto;
+}
+
 .container {
   padding: 35px;
 }
+
+.thumbnail {
+  cursor: pointer;
+  border: none;
+}
+
+.media_modal {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+
 @media (min-width: 768px) {
   header.banner .intro {
     padding-top: 200px;
