@@ -5,7 +5,7 @@
 }
 
 .test {
-  border: solid black 1px;
+  border: dashed orange 2px;
 }
 header.banner {
   text-align: center;
