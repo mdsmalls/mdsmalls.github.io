@@ -1,0 +1,42 @@
+$(document).ready(function(){
+
+  $('#useBilling').click(function() {
+$("#txtAge").toggle(this.checked);
+});
+// 			$('#useBilling').checked(function() {
+//     // $("#txtAge").toggle(this.checked);
+// 				var bla = $('#billing').val();
+// 				$('#home').val(bla);
+// 		//Set
+//
+// });
+//from class
+//    $("#useBilling").click(function(){
+//        alert("The paragraph was clicked.");
+//    });
+// 	$("#useBilling").click(function(){
+// 		var address = $('#billing').val();
+//      $("#home").val(address);
+// 		$( "#home" ).prop( "disabled", true );
+//  });
+// $("#useBilling").on("change", function(){
+// 	alert("HI")
+// if(this.checked) {
+//  $("#home").val($("#billing")).val());
+//  $("#home").prop('disabled',true);
+//  }
+//  else{
+//   $("#home").val("");
+// 	$("#home").prop('disabled',false);
+// }
+// });
+//Get
+$("#useBilling").on("change", function(){
+alert("HI")
+if(this.checked) {
+var bla = $('#billing').val();
+
+//Set
+$('#home').val(bla);
+});});
+});
