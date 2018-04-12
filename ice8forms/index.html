@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Employment Application Form</title>
+  <link rel="icon" href="images/logo_tiny">
+  <!-- stylesheets -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+  <section id="form">
+    <div class="container">
+      <h1 class="text-center headline">Your Dream Job Starts Here...</h3>
+      <h2>Basic Information</h2>
+      <div class="row ">
+        <div class="col-md-8">
+          <form id="application" name="application" action="index.html" class="">
+            <div class="row ">
+              <div class="col-md-8 ">
+                <div class="form-group">
+                  <h3>Account Information</h3>
+                  <label for="first">First Name</label>
+                  <input class="form-control" id="first" name="first" type="text" placeholder="First Name *" required data-validation-required-message="Please enter your first name.">
+                </div>
+                <div class="form-group">
+                  <label for="last">Last Name</label>
+                  <input class="form-control" id="last" name="last" type="text" placeholder="Last Name *" required data-validation-required-message="Please enter your last name.">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Password</label>
+                  <input class="form-control" id="password" name="password" type="password" placeholder="Create a password *" required data-validation-required-message="Please enter a password.">
+                  <br>
+                  <input class="form-control" id="password_c" name="password_c" type="password" placeholder="Confirm password *" required data-validation-required-message="Please confirm password.">
+
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+
+              <div class="col-md-8 ">
+                <div class="form-group">
+                  <h3>Contact Information</h3>
+                  <label for="phone">Phone number</label>
+                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="Phone Number *" required data-validation-required-message="Please enter your phone number.">
+                </div>
+                <div class="form-group">
+                  <label for="country">Country of Citizenship</label>
+                  <select class="form-control" id="country" name="country" type="bfh-countries" data-country="US">
+                        <option value=""></option><option value="AF">Afghanistan</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="CI">CÃ´te d'Ivoire</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="CD">Democratic Republic of the Congo</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="TP">East Timor</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FO">Faeroe Islands</option><option value="FK">Falkland Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="MK">Former Yugoslav Republic of Macedonia</option><option value="FR">France</option><option value="FX">France, Metropolitan</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard and Mc Donald Islands</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macau</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="MP">Northern Marianas</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestine</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn Islands</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="ST">SÃ£o TomÃ© and PrÃ­ncipe</option><option value="SH">Saint Helena</option><option value="PM">St. Pierre and Miquelon</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen Islands</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="BS">The Bahamas</option><option value="GM">The Gambia</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="VI">US Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican City</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna Islands</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input class="form-control" id="address" name="address" type="text" placeholder="Street Address" required data-validation-required-message="Please enter your street address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input class="form-control" id="city" name="city" type="text" placeholder="City" required data-validation-required-message="Please enter your city.">
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <input class="form-control" id="state" name="state" type="text" placeholder="ST">
+                  <p class="help-block text-danger"></p>
+                </div>
+                  <div class="form-group">
+                    <label for="zip">Zip</label>
+                    <input class="form-control" id="zip" name="zip" type="number" placeholder="zip">
+                    <p class="help-block text-danger"></p>
+                  </div>
+          </div>
+          </div>
+<div class="row">
+
+  <h2>Education and Work Experience</h2>
+<div class="col-md-8 ">
+  <div class="form-group">
+    <h3>Educational Information</h3>
+    <label for="degree">Degree</label>
+    <input class="form-control" id="degree" name="degree" type="text" placeholder="Degree" required data-validation-required-message="Please enter your degree.">
+  </div>
+  <div class="form-group">
+    <label for="school">Institution Name</label>
+    <input class="form-control" id="school" name="school" type="text" placeholder="Institution Name" required data-validation-required-message="Please enter your school name.">
+  </div>
+  <div class="form-group">
+    <label for="major">Major</label>
+    <input class="form-control" id="major" name="major" type="text" placeholder="Education Major" required data-validation-required-message="Please enter your major.">
+    <p class="help-block text-danger"></p>
+  </div>
+  <div class="form-group">
+    <label for="gpa">GPA</label>
+    <input class="form-control" id="gpa" name="passgpaword" type="number" placeholder="GPA" required data-validation-required-message="Please enter a password.">
+    <p class="help-block text-danger"></p>
+  </div>
+</div>
+<div class="col-md-8 ">
+  <div class="form-group">
+    <h3>Work Experience</h3>
+    <label for="company">Company Name</label>
+    <input class="form-control" id="company" name="company" type="text" placeholder="Company Name" required data-validation-required-message="Please enter your company name.">
+  </div>
+  <div class="form-group">
+    <label for="job">Job Title</label>
+    <input class="form-control" id="job" name="job" type="text" placeholder="Job Title" required data-validation-required-message="Please enter your job title.">
+  </div>
+  <div class="form-group">
+    <label for="join">Join Date</label>
+    <input class="form-control" id="join" name="join" type="date" placeholder="Join Date" required data-validation-required-message="Please enter your start date.">
+    <p class="help-block text-danger"></p>
+  </div>
+  <div class="form-group">
+    <label for="end">End Date</label>
+    <input class="form-control" id="end" name="end" type="date" placeholder="End Date" required data-validation-required-message="Please enter your end date.">
+    <p class="help-block text-danger"></p>
+  </div>
+</div>
+
+</div>
+
+<!-- <div class="row "> -->
+  <h2>Position</h2>
+  <div class="col-md-8 ">
+  <div class="form-group ">
+    <h3>Type of Work</h3>
+    <label for="position_time">What are you interested in applying for:</label><br>
+    <input type="checkbox" name="position" value="Internship"> Internship<br>
+    <input type="checkbox" name="position" value="Full-time" > Full-time<br>
+    <input type="checkbox" name="position" value="Part-time" > Part-time<br>
+  </div>
+</div>
+<div class="col-md-8 ">
+  <div class="form-group">
+    <h3>Resume and Cover Letter</h3>
+    <label>Upload Resume: *</label><br><input type="file" name="resume" accept="application/pdf"  >
+    <label>Upload Cover Letter: </label><br><input type="file" name="coverletter" accept="application/pdf">
+    </div>
+</div>
+<div class="col-md-8 ">
+  <div class="form-group">
+    <h3>Position</h3>
+    <label for="position">Which position are you interested in applying for:</label>
+    <input class="form-control" id="position" name="position" type="text" placeholder="Position Title" required data-validation-required-message="Please enter your position title.">
+  </div>
+  <div class="form-group">
+    <label for="office">Office Location</label>
+    <input class="form-control" id="office" name="office" type="text" placeholder="Office Location" required data-validation-required-message="Please enter your Office Location.">
+  </div>
+  <div class="form-group">
+    <label for="start">Start Date</label>
+    <input class="form-control" id="start" name="start" type="date" placeholder="Start Date" required data-validation-required-message="Please enter your start date.">
+    <p class="help-block text-danger"></p>
+  </div>
+  <div class="form-group">
+    <label for="salary">Expected Salary $</label>
+    <input class="form-control" id="salary" name="salary" type="number" placeholder="" required data-validation-required-message="Please enter your Expected Salary.">
+  </div>
+  <div class="form-group">
+    <label for="portfolio">Personal Website/Portfolio</label>
+    <input class="form-control" id="portfolio" name="portfolio" type="url" placeholder="www.mywebsite.com" required data-validation-required-message="Please enter your Website.">
+  </div>
+</div>
+</div>
+</div>
+
+<!-- </div> -->
+
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button id="applyForJob" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Send">Apply</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
