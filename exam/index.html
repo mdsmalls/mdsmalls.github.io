@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Matt Smallish Exam</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript">
+    function hideMe() {
+      document.getElementById('pic1').style.display = "none";
+      document.getElementById('left_pad').style.display = "block";
+      document.getElementById('right_pad').style.display = "block";
+    }
+
+    function showMe() {
+      document.getElementById('pic1').style.display = "block";
+      document.getElementById('left_pad').style.display = "none";
+      document.getElementById('right_pad').style.display = "none";
+    }
+  </script>
+</head>
+
+<body class="back">
+
+  <div class="section">
+    <h1>Matt Smallish</h1>
+    <div class="row ">
+      <!-- <div class="container test"> -->
+        <!-- <div id="pic1" class="col-md-6 col-sm-6 col-xs-6 text-center "> -->
+          <img id="pic1" class="img-responsive blue_box col-md-6 col-sm-6 col-xs-6  text-center" src="images/examPic.JPG" alt="Alligator">
+        <!-- </div> -->
+        <!-- <div id="pic2" class="col-md-6 col-sm-6 col-xs-6  text-center "> -->
+          <div id="left_pad" class="col-md-3 col-sm-3 col-xs-3 pads"></div>
+          <img id="pic2" class="img-responsive blue_box col-md-6 col-sm-6 col-xs-6  text-center" src="images/UMSI-logo.jpg" alt="UMSI Logo">
+          <div id="right_pad" class="col-md-3 col-sm-3 col-xs-3 pads"></div>
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>
+    <button type="button" name="hide" onclick="hideMe()">Hide Image</button>
+    <button type="button" name="show" onclick="showMe()">Show Image</button>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+</body>
+
+</html>

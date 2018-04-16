@@ -1,0 +1,24 @@
+
+
+.back {
+  background: url(../images/retina_wood.png);
+  background-repeat: repeat;
+  background-size: cover;
+  margin-left: 15px;
+}
+.blue_box {
+  border: 5px blue solid;
+  padding: 5px;
+  width: 50vw;
+}
+
+.test {
+  border: dashed orange 1px;
+  padding: 5%;
+}
+
+.pads {
+  display: none;
+}
+
+.section {padding: 0;margin: 0;}
