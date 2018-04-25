@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,15 +24,19 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </head>
 
-  <body id="page-top">
+  <body id="page-top" data-spy = "scroll">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Top</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logos/ms_star.png" alt="M S Star Icon" class="img-rounded center-block icon"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -85,7 +90,7 @@
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
+                <div class="portfolio-hover-content ">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -223,6 +228,22 @@
             <div class="portfolio-caption">
               <h4>Eastern Michigan University</h4>
               <p class="text-muted">Web/Graphic Design</p>
+            </div>
+          </div>
+
+          <!-- portfolio #10 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/08-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Trying Some Things</h4>
+              <p class="text-muted">WebGraphic Design</p>
             </div>
           </div>
 
@@ -386,7 +407,7 @@
 
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted"><a href="ux_resume.pdf">Click here for a PDF Version of my resume.</a></p>
+            <p class="large text-muted "><a href="ux_resume.pdf" class="txt-color-main">Click here for a PDF Version of my resume.</a></p>
           </div>
         </div>
       </div>
@@ -462,7 +483,7 @@
                 </div>
               </li>
               <li class="timeline-inverted">
-                <div class="timeline-image">
+                <div class="timeline-image bg-color-main">
                   <h4>...and I'm
                     <br>still
                     <br>going!</h4>
@@ -530,18 +551,19 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/matt-smallish/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <!-- <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a> -->
+              </li>
+              <li class="list-inline-item">
+
                 <a href="https://www.instagram.com/djsmallz18/">
                   <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
@@ -549,10 +571,10 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <!-- <a href="#">Privacy Policy</a> -->
               </li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <!-- <a href="#">Terms of Use</a> -->
               </li>
             </ul>
           </div>
@@ -611,13 +633,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Logo Design</h2>
+                  <p class="item-intro text-muted">Dynamic Logo Design for Entertainment Business.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p> As part of a company rebranding, created original logo and color scheme to reflect desired feeling.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
+                    <li>Date: June 2016</li>
+                    <li>Client: Refraction Entertainment</li>
                     <li>Category: Graphic Design</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -645,14 +667,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Marketing Illustrations</h2>
+                  <p class="item-intro text-muted">Original Images and Illustrations for Online and Social Media Marketing.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Date: April 2016</li>
+                    <li>Client: Lochbridge</li>
+                    <li>Category: Illustration</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -679,14 +701,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Fleet Management Software</h2>
+                  <p class="item-intro text-muted">UI/UX Design of Concept for Lochbridge and Oralce Fleet Management Software.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Date: January 2016</li>
+                    <li>Client: Lochbridge</li>
+                    <li>Category: UI/UX Design</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -870,6 +892,45 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog"> <!-- modal outside-->
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times"></i>
+          </div>
+          <div class="container"> <!-- modal inner - outside of content -->
+            <div class="row ">
+              <div class="col-lg-8 mx-auto"> <!-- modal inner  column - around content -->
+                <div class="modal-body"> <!-- modal inner - around content -->
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">testing</h2>
+                  <p class="item-intro text-muted">Create Original Content and Graphics for University Website</p>
+                  <!-- <img class="img-fluid d-block mx-auto shadow" src="img/portfolio/09-full.jpg" alt="EMU Mock Trial Website"> -->
+                  <a href="img/test/test_01.png" data-lightbox="roadtrip" data-title="Orange Gradient dolorem ipsum dolor smet Orange Gradient dolorem ipsum dolor smetOrange Gradient dolorem ipsum dolor smet"><img class="example-image img-thumb" src="img/test/test_01.png" alt="blue to orange gradient"></a>
+                  <a href="img/test/test_02.png" data-lightbox="roadtrip"><img class="example-image img-thumb" src="img/test/test_02.png" alt="blue to orange gradient"></a>
+                  <a href="img/test/test_03.png" data-lightbox="roadtrip"><img class="example-image img-thumb" src="img/test/test_03.png" alt="blue to orange gradient"></a>
+                  <a href="img/test/test_04.png" data-lightbox="roadtrip"><img class="example-image img-thumb" src="img/test/test_04.png" alt="blue to orange gradient"></a>
+                  <div class="container">
+
+</div>
+                  <p>Working as a Web Designer, in a student employment capacity, I was tasked with creating a website with original graphics and content. The website was for their regional collegiate mock trial competition. The requirements were to have Eastern Michigan University's branding, utilize their CSS, be informative and user friendly. Over the course of the semester I gathered the necessary information, created the layout and imagery, and built pages that are still in use by the University.  </p>
+                  <ul class="list-inline">
+                    <li>Date: Fall 2011</li>
+                    <li>Client: Eastern Michigan University</li>
+                    <li>Category: Web Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -883,6 +944,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+
+    <!-- Lightbox scripts -->
+    <script src="js/lightbox.js"></script>
 
   </body>
 
