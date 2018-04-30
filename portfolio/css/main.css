@@ -17,7 +17,9 @@ img.icon {
 }
 
 .img-thumb {
-  width: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 15px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -25,8 +27,27 @@ img.icon {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-/* @media (max-width: 768px) {
+.fa-large {
+  font-size: 2em;
+  color: #ED7127;
+}
+
+@media (max-width: 768px) {
   .img-thumb {
-    width: 200px;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
-} */
+
+  .lb-container {
+    width: 90vw;
+  }
+  .lb-image {
+    max-width: 90%;
+  }
+  /* .mobile-header {
+    font-size: small;
+    color: pink;
+  } */
+}
