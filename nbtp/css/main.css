@@ -115,6 +115,21 @@ img.icon {
   color: orange;
 }
 
+.footer-icon-fb:visited {
+  font-size: 3em;
+  color: blue;
+}
+
+.footer-icon-yt:visited {
+  font-size: 3em;
+  color: red;
+}
+
+.footer-icon-ig:visited {
+  font-size: 3em;
+  color: orange;
+}
+
 .plain, .plain:visited {
   text-decoration: none;
 }
