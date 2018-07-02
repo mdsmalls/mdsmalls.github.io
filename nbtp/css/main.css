@@ -22,6 +22,10 @@
   visibility: visible;
 }
 
+.btn-primary {
+  background-color: #74CDD0;
+}
+
 header.banner {
   text-align: center;
   color: white;
